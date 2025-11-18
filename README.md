@@ -7,4 +7,4 @@ misc/ for drafts, experiments, play-files
 
 rosalind/ for the Rosalind lessons
 
-aoc25/ tba
+aoc25/ for advent of coding
