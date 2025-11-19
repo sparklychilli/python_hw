@@ -1,1 +1,2 @@
 data/* # ignore everything in data
+.ipynb_checkpoints/ *
