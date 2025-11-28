@@ -22,3 +22,17 @@ def read_file_into_lines(file_path):
             lines.append(cleaned)
     return lines
 
+def reverse_complement_dna(dna_strand)
+#make a reverse complement of an DNA-strand
+    revc_dna = ""
+        for base in dna_strand: #loop through all positions of the string
+        if base == "A": #making an if/elif loop to assign all possible complements that the base could have
+            new_base = "T"
+        elif base == "T":
+            new_base = "A"
+        elif base == "G":
+            new_base = "C"
+        elif base == "C":
+            new_base = "G"
+        revc = new_base + revc
+    return revc_dna
